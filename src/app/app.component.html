@@ -1,0 +1,40 @@
+<div class="container">
+    <h1 class="headone bg-primary text-light text-center mt-5">Diary</h1>
+    <div class="row">
+        <form class="formone col-md-6">
+            <div class="form-group mt-5">
+                <label for="formGroupExampleInput">
+                    <h2>Title</h2>
+                </label>
+                <input type="text" class="form-control" placeholder="Title">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2">
+                    <h2>Description</h2>
+                </label>
+                <input type="text" class="form-control" placeholder="Description">
+            </div>
+            <div class="form-group">
+                <label for="date">
+                    <h2>Date</h2>
+                </label>
+                <input type="date" class="form-control" >
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-success w-100" (click)="save()">Save</button>
+            </div>
+        </form>
+        <div class="col mt-5">
+            <div class="card">
+                <div class="card-header">
+                    Title
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Description</h5>
+                    <p class="card-text">Date</p>
+                    <a href="#" class="btn btn-danger">Delete</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
